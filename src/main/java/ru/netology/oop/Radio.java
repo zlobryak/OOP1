@@ -2,7 +2,7 @@ package ru.netology.oop;
 
 public class Radio {
     private int radioStationNumber;
-    private int currentVolume;
+    private int currentVolume = 5;
 
     public void setRadioStationNumber(int newStationNumber){
         if (newStationNumber >= 0)
@@ -43,8 +43,14 @@ public class Radio {
             currentVolume --;
         }
     }
-    public void setRadioVolume(int newRadioVolume){
-        currentVolume = newRadioVolume;
+    public void setRadioVolume(int newRadioVolume){ // Used only for tests.
+
+        if (newRadioVolume >= 0) {
+            if (newRadioVolume <= 10){
+                currentVolume = newRadioVolume;
+            } else currentVolume = 0;
+        } else currentVolume = 0;
+
     }
     public  int getRadioVolume(){
         return currentVolume;

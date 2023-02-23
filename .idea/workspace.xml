@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="91 coverege">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="100% coverage">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" afterDir="false" />
     </list>
@@ -23,6 +22,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2490635f-0301-4846-b98d-d1a85ce9f5a6" />
+        <option name="url" value="https://github.com/zlobryak/OOP1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,39 +68,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.setRadioStationNumberAbove9">
-    <configuration name="RadioTest.prevStationWhen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Javaqamvn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.oop" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
-      <option name="METHOD_NAME" value="prevStationWhen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadioTest.prevStationWhen0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Javaqamvn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.oop" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
-      <option name="METHOD_NAME" value="prevStationWhen0" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.RadioTest.setVoulumeWrongBelow">
     <configuration name="RadioTest.setRadioStationNumberAbove9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqamvn" />
       <extension name="coverage">
@@ -137,13 +117,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.setVoulumeWrongAbove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Javaqamvn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.oop" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
+      <option name="METHOD_NAME" value="setVoulumeWrongAbove" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.setVoulumeWrongBelow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Javaqamvn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.oop" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
+      <option name="METHOD_NAME" value="setVoulumeWrongBelow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.setVoulumeWrongBelow" />
+        <item itemvalue="JUnit.RadioTest.setVoulumeWrongAbove" />
         <item itemvalue="JUnit.RadioTest.setRadioStationNumberAbove9" />
         <item itemvalue="JUnit.RadioTest.setRadioStationNumberBelow0" />
         <item itemvalue="JUnit.RadioTest.setRaidioZero" />
-        <item itemvalue="JUnit.RadioTest.prevStationWhen" />
-        <item itemvalue="JUnit.RadioTest.prevStationWhen0" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677163328986</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="100% coverage">
+      <created>1677164657382</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677164657382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,19 +214,20 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="83% coverege" />
     <MESSAGE value="91 coverege" />
-    <option name="LAST_COMMIT_MESSAGE" value="91 coverege" />
+    <MESSAGE value="100% coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="100% coverage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java</url>
-          <line>6</line>
-          <properties class="ru.netology.oop.Radio" method="setRadioStationNumber">
+          <line>45</line>
+          <properties class="ru.netology.oop.Radio" method="setRadioVolume">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
