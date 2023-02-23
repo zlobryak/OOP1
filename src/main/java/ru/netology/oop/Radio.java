@@ -5,7 +5,8 @@ public class Radio {
     private int currentVolume;
 
     public void setRadioStationNumber(int newStationNumber){
-        if (newStationNumber >= 0 || newStationNumber <= 9) radioStationNumber = newStationNumber;
+        if (newStationNumber >= 0)
+            if (newStationNumber <= 9) radioStationNumber = newStationNumber;
         else radioStationNumber = 0;
     }
     public void next(){

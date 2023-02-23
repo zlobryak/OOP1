@@ -6,7 +6,27 @@ import org.junit.jupiter.api.Test;
 
 public class RadioTest {
     @Test
-    public void setRaidioZero(){
+    public  void setRadioStationNumberAbove9(){
+        Radio radio = new Radio();
+        radio.setRadioStationNumber(10);
+
+        int expected = 0;
+        int actual = radio.getRadioStationNumber();
+
+        Assertions.assertEquals(expected, actual);
+    }
+    @Test
+    public  void setRadioStationNumberBelow0(){
+        Radio radio = new Radio();
+        radio.setRadioStationNumber(-1);
+
+        int expected = 0;
+        int actual = radio.getRadioStationNumber();
+
+        Assertions.assertEquals(expected, actual);
+    }
+    @Test
+    public void setRadioZero(){
         int stationNumber = 0;
         Radio radio = new Radio();
         radio.setRadioStationNumber(stationNumber);
