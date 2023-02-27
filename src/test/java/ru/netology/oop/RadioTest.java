@@ -156,10 +156,10 @@ public class RadioTest {
 
     @Test
     public void setVolumeWrongAbove() {
-        int volumeLevel = 11;
+        int volumeLevel = 101;
         radio.setCurrentVolume(volumeLevel);
 
-        int expected = 0;
+        int expected = 100;
         int actual = radio.getCurrentVolume();
 
         Assertions.assertEquals(expected, actual);

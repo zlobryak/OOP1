@@ -74,11 +74,10 @@ public class Radio {
     }
 
     public void setCurrentVolume(int newVolume) {
-        if (getCurrentVolume() >= 0) {
+        if (newVolume >= 0) {
             if (newVolume <= 100) {
                 currentVolume = newVolume;
-            }
-            currentVolume = maxVolume;
+            } else currentVolume = maxVolume;
         } else {
             currentVolume = minVolume;
         }
