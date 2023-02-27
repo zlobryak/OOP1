@@ -1,36 +1,50 @@
 package ru.netology.oop;
 
 public class Radio {
-    private int radioStationNumber;
+    private int quantityOfRadioStations = 10;
+    private int numberOfRadioStations;
     private int currentVolume = 5;
 
-    public void setRadioStationNumber(int newStationNumber){
-        if (newStationNumber >= 0)
-            if (newStationNumber <= 9) radioStationNumber = newStationNumber;
-        else radioStationNumber = 0;
+    public int getQuantityOfRadioStations() {
+        return quantityOfRadioStations;
     }
-    public void next(){
-        if (radioStationNumber < 9) {
-            radioStationNumber++;
+
+    public void setQuantityOfRadioStations(int quantityOfRadioStations) {
+        if (quantityOfRadioStations > 0) {
+            this.quantityOfRadioStations = quantityOfRadioStations;
         }
         else {
-            radioStationNumber = 0;
+            this.quantityOfRadioStations = 10;
+        }
+    }
+
+    public void setNumberOfRadioStations(int newStationNumber){
+        if (newStationNumber >= 0)
+            if (newStationNumber <= quantityOfRadioStations - 1) numberOfRadioStations = newStationNumber;
+        else numberOfRadioStations = 0;
+    }
+    public void next(){
+        if (numberOfRadioStations < quantityOfRadioStations - 1) {
+            numberOfRadioStations++;
+        }
+        else {
+            numberOfRadioStations = 0;
         }
     }
 
     public void prev(){
-        if (radioStationNumber > 0) {
-            radioStationNumber--;
+        if (numberOfRadioStations > 0) {
+            numberOfRadioStations--;
 
         }
         else  {
-            radioStationNumber = 9;
+            numberOfRadioStations = quantityOfRadioStations - 1;
         }
 
     }
-    public int getRadioStationNumber(){
+    public int getNumberOfRadioStations(){
 
-        return radioStationNumber;
+        return numberOfRadioStations;
     }
 
     public void increaseVolume() {
@@ -52,8 +66,12 @@ public class Radio {
         } else currentVolume = 0;
 
     }
-    public  int getRadioVolume(){
+    public int getCurrentVolume() {
         return currentVolume;
+    }
+
+    public void setCurrentVolume(int currentVolume) {
+        this.currentVolume = currentVolume;
     }
 }
 
