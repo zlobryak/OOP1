@@ -1,11 +1,12 @@
 package ru.netology.oop;
 
 public class Radio {
-    private int quantityOfRadioStations;
+
     private int numberOfCurrentRadioStation = 0;
     private int currentVolume = 5;
-    private int minVolume = 0;
-    private int maxVolume = 100;
+    int quantityOfRadioStations;
+    int minVolume = 0;
+    int maxVolume = 100;
 
     public Radio(int quantityOfRadioStations) {
         if (quantityOfRadioStations > 0) {
@@ -49,7 +50,7 @@ public class Radio {
     }
 
     public void increaseVolume() {
-        if (currentVolume < 10) {
+        if (currentVolume < 100) {
             currentVolume++;
         }
     }
@@ -57,16 +58,7 @@ public class Radio {
     public void decreaseVolume() {
         if (currentVolume > 0) {
             currentVolume--;
-        }
-    }
-
-    public void setRadioVolume(int newRadioVolume) { // Used only for tests.
-
-        if (newRadioVolume >= 0) {
-            if (newRadioVolume <= 10) {
-                currentVolume = newRadioVolume;
-            } else currentVolume = 0;
-        } else currentVolume = 0;
+        } else this.currentVolume = 0;
     }
 
     public int getCurrentVolume() {

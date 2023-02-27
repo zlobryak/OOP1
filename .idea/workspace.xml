@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="constructor Radio added" />
+    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="setVolume fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setRadioStationNumberAbove9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.getQuantityOfRadioStationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqamvn" />
       <extension name="coverage">
         <pattern>
@@ -100,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.oop" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
-      <option name="METHOD_NAME" value="setRadioStationNumberAbove9" />
+      <option name="METHOD_NAME" value="getQuantityOfRadioStationsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setRadioStationNumberBelow0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.getQuantityOfRadioStationsTestBelowZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqamvn" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +120,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.oop" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
-      <option name="METHOD_NAME" value="setRadioStationNumberBelow0" />
+      <option name="METHOD_NAME" value="getQuantityOfRadioStationsTestBelowZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setVoulumeWrongAbove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setRadioMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqamvn" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +136,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.oop" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
-      <option name="METHOD_NAME" value="setVoulumeWrongAbove" />
+      <option name="METHOD_NAME" value="setRadioMax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.setVoulumeWrongBelow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.setRadioStationNumberAbove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Javaqamvn" />
       <extension name="coverage">
         <pattern>
@@ -148,7 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.oop" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.oop.RadioTest" />
-      <option name="METHOD_NAME" value="setVoulumeWrongBelow" />
+      <option name="METHOD_NAME" value="setRadioStationNumberAbove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,10 +161,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RadioTest.decreaseVolumeWhen0" />
-        <item itemvalue="JUnit.RadioTest.setVoulumeWrongBelow" />
-        <item itemvalue="JUnit.RadioTest.setVoulumeWrongAbove" />
-        <item itemvalue="JUnit.RadioTest.setRadioStationNumberAbove9" />
-        <item itemvalue="JUnit.RadioTest.setRadioStationNumberBelow0" />
+        <item itemvalue="JUnit.RadioTest.setRadioMax" />
+        <item itemvalue="JUnit.RadioTest.setRadioStationNumberAbove" />
+        <item itemvalue="JUnit.RadioTest.getQuantityOfRadioStationsTestBelowZero" />
+        <item itemvalue="JUnit.RadioTest.getQuantityOfRadioStationsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677504415420</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="setVolume fixed">
+      <created>1677505007388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677505007388</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,15 +287,16 @@
     <MESSAGE value="lombok added" />
     <MESSAGE value="Number of radio stations setter and getter, prev and next methods mod" />
     <MESSAGE value="constructor Radio added" />
-    <option name="LAST_COMMIT_MESSAGE" value="constructor Radio added" />
+    <MESSAGE value="setVolume fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="setVolume fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java</url>
-          <line>136</line>
-          <option name="timeStamp" value="2" />
+          <line>98</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
