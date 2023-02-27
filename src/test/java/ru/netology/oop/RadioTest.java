@@ -123,4 +123,46 @@ public class RadioTest {
         radio.setCurrentVolume(-1);
         Assertions.assertEquals(0, radio.getCurrentVolume());
     }
+
+    @Test
+    void setMinVolume0() {
+        radio.setMinVolume(0);
+        Assertions.assertEquals(0, radio.getMinVolume());
+    }
+
+    @Test
+    void setMinVolumeAbove() {
+        radio.setMinVolume(1);
+        Assertions.assertEquals(1, radio.getMinVolume());
+    }
+
+    @Test
+    void setMinVolumeBelow() {
+        radio.setMinVolume(-1);
+        Assertions.assertEquals(0, radio.getMinVolume());
+    }
+
+    @Test
+    void setMaxVolumeAbove() {
+        radio.setMaxVolume(101);
+        Assertions.assertEquals(101, radio.getMaxVolume());
+    }
+
+    @Test
+    void setMaxVolumeBelow() {
+        radio.setMaxVolume(-1);
+        Assertions.assertEquals(100, radio.getMaxVolume());
+    }
+
+    @Test
+    void setQuantityOfRadioStationsBelow() {
+        radio.setQuantityOfRadioStations(-1);
+        Assertions.assertEquals(10, radio.getQuantityOfRadioStations());
+    }
+
+    @Test
+    void setQuantityOfRadioStationsAbove() {
+        radio.setQuantityOfRadioStations(11);
+        Assertions.assertEquals(11, radio.getQuantityOfRadioStations());
+    }
 }
