@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="lombok added">
+    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="Number of radio stations setter and getter, prev and next methods mod">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" afterDir="false" />
@@ -37,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="2490635f-0301-4846-b98d-d1a85ce9f5a6" />
+        <option name="accountId" value="99413faa-4d55-4322-9323-a8848b1b9247" />
         <option name="url" value="https://github.com/zlobryak/OOP1.git" />
       </UrlAndAccount>
     </option>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677422793850</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Number of radio stations setter and getter, prev and next methods mod">
+      <created>1677497983440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677497983440</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +271,8 @@
     <MESSAGE value="91 coverege" />
     <MESSAGE value="100% coverage" />
     <MESSAGE value="lombok added" />
-    <option name="LAST_COMMIT_MESSAGE" value="lombok added" />
+    <MESSAGE value="Number of radio stations setter and getter, prev and next methods mod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number of radio stations setter and getter, prev and next methods mod" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
