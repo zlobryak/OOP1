@@ -12,8 +12,11 @@ public class Radio {
     public Radio(int quantityOfRadioStations) {
         if (quantityOfRadioStations > 0) {
             this.quantityOfRadioStations = quantityOfRadioStations;
-        } else this.quantityOfRadioStations = 10;
+        } else {
+            this.quantityOfRadioStations = 10;
+        }
     }
+
     public Radio() {
         this.quantityOfRadioStations = 10;
     }
@@ -26,7 +29,9 @@ public class Radio {
         if (numberOfCurrentRadioStation >= 0)
             if (numberOfCurrentRadioStation <= quantityOfRadioStations - 1)
                 this.numberOfCurrentRadioStation = numberOfCurrentRadioStation;
-            else this.numberOfCurrentRadioStation = 0;
+            else {
+                this.numberOfCurrentRadioStation = 0;
+            }
     }
 
     public int getQuantityOfRadioStations() {
@@ -36,7 +41,9 @@ public class Radio {
     public void setQuantityOfRadioStations(int quantityOfRadioStations) {
         if (quantityOfRadioStations > 0) {
             this.quantityOfRadioStations = quantityOfRadioStations;
-        } else this.quantityOfRadioStations = 10;
+        } else {
+            this.quantityOfRadioStations = 10;
+        }
     }
 
 
@@ -92,7 +99,9 @@ public class Radio {
     public void decreaseVolume() {
         if (currentVolume > 0) {
             currentVolume--;
-        } else this.currentVolume = 0;
+        } else {
+            this.currentVolume = 0;
+        }
     }
 
     public int getCurrentVolume() {

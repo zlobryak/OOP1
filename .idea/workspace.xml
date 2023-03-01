@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="Radio rewritten with Lombok">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="getQuantity Tests Assertions fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677511184525</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="getQuantity Tests Assertions fixed">
+      <created>1677650171530</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677650171530</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +300,8 @@
     <MESSAGE value="setVolume fixed" />
     <MESSAGE value="Tests rewritten, volume in range 0-100,Radio constructors added." />
     <MESSAGE value="Radio rewritten with Lombok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Radio rewritten with Lombok" />
+    <MESSAGE value="getQuantity Tests Assertions fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="getQuantity Tests Assertions fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
