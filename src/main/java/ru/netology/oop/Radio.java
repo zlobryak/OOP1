@@ -28,8 +28,9 @@ public class Radio {
 
     public void setNumberOfCurrentRadioStation(int numberOfCurrentRadioStation) {
         if (numberOfCurrentRadioStation >= 0)
-            if (numberOfCurrentRadioStation <= quantityOfRadioStations - 1)
+            if (numberOfCurrentRadioStation <= quantityOfRadioStations - 1) {
                 this.numberOfCurrentRadioStation = numberOfCurrentRadioStation;
+            }
             else {
                 this.numberOfCurrentRadioStation = 0;
             }
