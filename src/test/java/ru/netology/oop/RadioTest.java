@@ -15,13 +15,13 @@ public class RadioTest {
 
     @Test
     void getQuantityOfRadioStationsTest() {
-        Assertions.assertEquals(radio.getQuantityOfRadioStations(), 30);
+        Assertions.assertEquals(30, radio.getQuantityOfRadioStations());
     }
 
     @Test
     void getQuantityOfRadioStationsTestBelowZero() {
         Radio radio = new Radio(-1);
-        Assertions.assertEquals(radio.getQuantityOfRadioStations(), 10);
+        Assertions.assertEquals(10, radio.getQuantityOfRadioStations());
 
     }
 
