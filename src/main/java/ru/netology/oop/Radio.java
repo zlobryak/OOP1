@@ -12,9 +12,9 @@ public class Radio {
     public Radio(int quantityOfRadioStations) {
         if (quantityOfRadioStations > 0) {
             this.quantityOfRadioStations = quantityOfRadioStations;
-        } else {
+        } else
             this.quantityOfRadioStations = 10;
-        }
+
     }
 
     public Radio() {
