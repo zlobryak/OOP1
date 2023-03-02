@@ -114,7 +114,9 @@ public class Radio {
         if (currentVolume >= 0) {
             if (currentVolume <= 100) {
                 this.currentVolume = currentVolume;
-            } else this.currentVolume = maxVolume;
+            } else {
+                this.currentVolume = maxVolume;
+            }
         } else {
             this.currentVolume = minVolume;
         }
