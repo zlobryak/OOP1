@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="getQuantity Tests Assertions fixed" />
+    <list default="true" id="736d3e6e-ca66-46aa-a27c-7fd4c1392608" name="Changes" comment="Braces in lombok fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/oop/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,23 +58,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/alexander/Documents/Java/OOP1/src/test/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "/home/alexander/Documents/Java/OOP1/src/test/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean te" />
       <command value="mvn clean test" />
       <command value="mvn clean verify" />
+      <command value="mvn compile" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RadioTest.setMaxVolumeAbove">
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RadioTest.setMaxVolumeAbove" />
-        <item itemvalue="JUnit.RadioTest.decreaseVolumeWhen0" />
-        <item itemvalue="JUnit.RadioTest.setRadioMax" />
         <item itemvalue="JUnit.RadioTest.setRadioStationNumberAbove" />
+        <item itemvalue="JUnit.RadioTest.setRadioMax" />
+        <item itemvalue="JUnit.RadioTest.setMaxVolumeAbove" />
         <item itemvalue="JUnit.RadioTest.getQuantityOfRadioStationsTestBelowZero" />
+        <item itemvalue="JUnit.RadioTest.decreaseVolumeWhen0" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677650171530</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Braces in lombok fix">
+      <created>1677774891453</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677774891453</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,18 +313,8 @@
     <MESSAGE value="Tests rewritten, volume in range 0-100,Radio constructors added." />
     <MESSAGE value="Radio rewritten with Lombok" />
     <MESSAGE value="getQuantity Tests Assertions fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="getQuantity Tests Assertions fixed" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/oop/RadioTest.java</url>
-          <line>146</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Braces in lombok fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Braces in lombok fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
