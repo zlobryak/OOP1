@@ -1,7 +1,7 @@
 package ru.netology.oop;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;;
+import lombok.Data;
 
 @AllArgsConstructor
 @Data
